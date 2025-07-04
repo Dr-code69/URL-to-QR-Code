@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>URL to QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 URL to QR Code</h1>
+    <p>Enter any URL and instantly generate a QR code</p>
+    <input type="text" id="urlInput" placeholder="https://example.com">
+    <button onclick="generateQRCode()">Generate QR Code</button>
+    <div class="qr-wrapper">
+      <canvas id="qrCode"></canvas>
+    </div>
+    <button id="shareBtn" onclick="shareQRCode()" style="display: none;">📤 Share</button>
+  </div>
+  <footer>
+    Created by Srijeet
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
