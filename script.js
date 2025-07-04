@@ -31,3 +31,5 @@ function shareQRCode() {
     alert("Sharing is not supported on this browser. Try using mobile or Chrome.");
   }
 }
+
+
